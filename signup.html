@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+    <div class="parent">
+
+        <form class="form" action="process-signup.php" method="post" novalidate>
+            <h1 class="head">Signup</h1>
+            <div>
+                <input class="input-user" type="text"  name="name" placeholder="Username">
+            </div>
+            
+            <div>
+                <input type="email"  name="email" placeholder="Email">
+            </div>
+    
+            <div>
+                <input type="password"  name="pass" placeholder="Password (atleast 8 Charchters)">
+            </div>
+
+            <div>
+                <input type="password"  name="pass-confirm" placeholder="Confirm Password (Must Match)">
+            </div>
+
+            <button type="submit">SignUp</button>
+        </form>
+    </div>
+</body>
+</html>
